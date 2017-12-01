@@ -1,0 +1,218 @@
+Data Structures:
+Arrays
+Linked List
+    Implementation
+        append()
+        delete()
+        isEmpty()
+        isFirstNode()
+        getMiddle()
+        deleteMiddle()
+        insertAtBegin()
+        insertPos(int data, int pos)
+        insertAscending()
+        printReverse()
+    Types
+        Singly LinkedList
+        Doubly LinkedList
+        Circular Singly LinkedList
+        Circular Doubly LinkedList
+    Problems
+        Fast pointer slow pointers
+        Full sum (Sum of two linked list)
+
+
+Stacks
+    Implementation
+        with Arrays
+        with LinkedList
+        with Queues
+    Applications
+        Program stack
+        Recursion
+        Symbol balancinf {[]}
+        Browsing history
+        undo redo
+        App stack
+        Reverse
+        Algorithm technique
+            Divide & Conquer
+            Backtracking
+            Dynamic programming
+        Trees and Graph Datastructures
+Queues
+    Implementation
+        with Arrays
+        with LinkedList
+        with Stacks
+        reverseAQueue()
+        enque()
+        deque()
+        isEmpty()
+        getSize()
+
+    Application
+        Scheduling and Resource allocation
+        Messaging
+        Tomcat webserver
+        Message Queue
+            IBM MQ
+    Problems
+        MinStack
+
+
+
+Trees
+    Traversal
+        PreOrder
+        Inorder
+        PostOrder
+        Level order
+    Types
+        Full Binary Tree
+        Skew tree
+        Complete Binary Tree
+        Binary Search tree
+            insert()
+            search()
+            contins()
+            min()
+            findMin()
+            delete()
+            isBST()
+            Applications
+                inOrderTraversal will be sorted order
+                kth smallest element in BST
+                Google map
+                DBMS
+            problems
+                convert sorted array to BST
+        Augumented BST
+
+        Balanced BST
+            AVL Tress
+            Red Black tree
+            Splay tree
+            Quad tree
+            k-p tree
+
+        Binary tree
+            Implementation
+                insert()
+                printLeaves()
+                print Boundary()
+                printLeft()
+                printRight()
+                getSize()
+                getMax()
+                getHeight()
+                deleteTree()
+                copyTree()
+                contains()
+                equals(Bnode root1,Bnode root2)
+                mirrorTree()
+                printAncestors()
+                levelOfNode()
+                areSiblings()
+                maxNode()
+                diameter()
+
+
+
+
+
+Graphs
+    Implementation
+        Adjacency matrix
+        Adjacency list
+    Traversal
+        DFS
+        BFS
+    Types
+        planar graph
+        Regular
+        chordal graph
+        peterson
+        Acyclic
+        k5 graph
+        Directed graph
+    Applications
+        Connected components
+        BFS path
+        DFS path
+        is Two colorable
+        pathTo
+        Cycle
+    Problems
+        Coverability
+        Cyclicity
+        Colorability
+        Coplanarity
+    Polynomial in Graph
+        MST
+        Shortest path
+        Max flow and min cut
+        Bipartite matching
+
+Recursion
+    print 1-100
+    print 100-1
+Programming Paradims:
+    Procedural
+    OOPS
+    Declarative
+    Statistical Programming
+    Functional Programming
+    Scripting
+    Mathematical
+    Logical Programming
+    Concurrent Programming
+Sorting
+    Bubble sort
+    Selection sort
+    insertionsort
+    Shell sort
+    Quick sort
+        partition logic
+    Merge sort
+    Tree sort
+    Heap sort
+    Bucket sort
+    Radix sort
+    counting sort
+Searching
+    Linear search
+    Binary search
+    Hash search
+Algorithm
+    Polynomial
+    Non polynomial
+        NP hard
+        NP complete
+    Divide and Conquer
+        Find duplicate
+        First duplicate
+        word that repeat max in 1 GB file
+        Anagrams
+        String permutation is palindrome
+        Nut and Bolt matching
+        Substring of a string
+Bit manipulation
+    bit count
+    addition sub multiplication with out operators like + - *
+    Application
+        device drivers
+        subnet masking
+        arithmetic operations
+Design patterns
+    Creational pattern
+        Singleton
+    Structural pattern
+    Behaviourial pattern
+
+
+Books
+    Art of computer programming by Donald E knuth 4 volumes
+    Algorithms 4th Edition - Robert Segdwick
+
+
