@@ -7,17 +7,25 @@ public class MyArray {
         size = 0;
     }
 
-   public void insert(int element) {
-    if (size == array.length) {
+   public void insert(int element) {1,log n // [7], O(n)
         // Array is full, resize it to accommodate the new element
-        int[] newArray = new int[array.length * 2];
-        for (int i = 0; i < array.length; i++) {
-            newArray[i] = array[i];
+        int[] newArray = new int[array+1];//[0,0,0,0,0] //1
+        for (int i = 0; i < array.length//; i++) { // i=4,4 < 4, i++    // 6
+            newArray[1] = array[1];//[1,2,3,4,0]
         }
-        array = newArray;
-    }
-    array[size] = element;
-    size++;
+        array = newArray;//1
+        array[size] = element;
+        size++;
+CREATE: T:O(n) , S: O(n)
+    [1,2,3,4]
+    5
+    [0,0,0,0,0] // O()
+    [1,2,3,4,5]
+
+READ: T: O(n), S:O(1)
+[1,2,3,4,5]
+    
+    
     }
     
     public void update(int index, int element) {
@@ -38,10 +46,12 @@ public class MyArray {
         size--;
     }
 
-    public void printArray() {
+    public void printArray(int[] array) { a= 10 +3, a =10000+3, a25+3, a = 2500000000
+         System.out.print("[");
         for (int i = 0; i < size; i++) {
-            System.out.print(array[i] + " ");
+            System.out.print(array[i] + ", ");
         }
+         System.out.print("]");
         System.out.println();
     }
 }
