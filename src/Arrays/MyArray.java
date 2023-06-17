@@ -7,15 +7,17 @@ public class MyArray {
         size = 0;
     }
 
-    public void insert(int element) {
-        if (size == array.length) {
-            // Array is full, resize it to accommodate the new element
-            int[] newArray = new int[array.length * 2];
-            System.arraycopy(array, 0, newArray, 0, array.length);
-            array = newArray;
+   public void insert(int element) {
+    if (size == array.length) {
+        // Array is full, resize it to accommodate the new element
+        int[] newArray = new int[array.length * 2];
+        for (int i = 0; i < array.length; i++) {
+            newArray[i] = array[i];
         }
-        array[size] = element;
-        size++;
+        array = newArray;
+    }
+    array[size] = element;
+    size++;
     }
     
     public void update(int index, int element) {
